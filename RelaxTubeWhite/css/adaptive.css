@@ -1,0 +1,255 @@
+/*  Adaptive RelaxTube  */
+
+@media screen and (max-width: 1520px){
+  .wrap{
+    width:1274px;
+  }
+}
+@media screen and (max-width: 1334px){
+  .wrap{
+    width: 1210px;
+  }
+}
+@media screen and (max-width: 1270px){
+  .wrap{
+    width: 960px;
+  }
+  .right{
+    width: 100%;
+  }
+  .left{
+    display: none;
+  }
+  .searchblock{
+    float: none;
+    clear: both;
+    width: 100%;
+    background-color: #2a2a2a;
+    border:0;
+  }
+  .h1_title{
+    font-size: 16px;
+  }
+  .speedbar, .speedbar a{
+    font-size: 13px;
+  }
+  .shortstory{
+    padding:0 5px;
+  }
+}
+@media screen and (max-width: 1020px){
+  .wrap{
+    width: 720px;
+  }
+  .content, .sidebar{
+    width: 100%;
+    float: none;
+  }
+  .sidebar{
+    margin-bottom: 20px;
+  }
+  .shortstory{
+    width: 33.33333%;
+  }
+  .h1_title{
+    float: none;
+    line-height: 30px;
+  }
+  .speedbar{
+    padding: 5px 20px;
+  }
+  .find_rel{
+    margin: 15px 0 0 0;
+  }
+  .comment_controls a{
+    display:none;
+  }
+  .comment_controls a:first-of-type{
+    display:inline;
+  }
+  .input1{
+    width: 200px ;
+  }
+  .social_login.social_menu{
+    margin: 0 auto;
+    float: none;
+  }
+  .footer{
+    text-align: center;
+  }
+  .footer_links{
+    margin: 20px 0 0 0;
+  }
+  .addnews select{
+    width: 100% !important;
+  }
+  .copyrights, .footer_links{
+    float: none;
+  }
+}
+@media screen and (min-width: 781px){  
+  .nav ul.main_nav{
+    display: block !important;
+  }
+}
+@media screen and (max-width: 780px){  
+  .wrap{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .shortstory{
+    width: 50%;
+  }
+  .short_title{
+    font-size: 14px;
+  }
+  .header-login{
+    width: 120px;
+  }
+  .nav_btn{
+    display: block;
+  }
+  .nav ul.main_nav{    
+    border: 1px solid #333;
+    border-bottom: 0;
+    height: auto;
+    z-index: 9999;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+  }
+  .nav li a{
+    border-right: 0;      
+    border-bottom: 1px solid #333;
+  }
+  .nav li, .nav li a{
+    float: none;
+    height: auto;
+  }
+  h1 {font-size:20px;line-height:22px;}
+  h2 {font-size:18px;line-height:20px;}
+  h3, h4 {font-size:16px;}
+  .post_content, .post_content a{
+    font-size: 14px;
+  }
+  .pm_head{
+    font-size: 16px;
+    line-height: 24px;
+  }   
+  .navigation a, .nav_ext{
+    display: none;
+  }
+  .navigation .next a, .navigation .prev a{
+    display: block;
+  }
+  .about{
+    display: none;
+  }
+  .age18{
+    display: none;
+  }
+  .right_buttons{
+    float: none;
+    clear: both;
+    padding: 10px 0;
+    height: 60px;
+  }
+  .post_info_button, .span_edit a{
+    float: left;
+  }
+  .post_info_button{
+    margin:0 10px 0 0 !important;
+  }
+  .category_block{
+    width: 50%;
+  }
+  textarea, select[name="recip"], input{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 470px){  
+  .logo, .header_right{
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+  .header-login{
+    width: 100%;
+  }
+  .nav ul.main_nav{
+    top: 120px;
+  }
+  .logo img{
+    margin: 0 auto;
+  }
+  .tabs_header{
+    height: auto;
+  }
+  .tabs_header span{
+    float: none;    
+  }
+  .post_title, .post_title h1{
+    font-size:20px;
+  }
+  .nav_ext{
+    display: none;
+  } 
+  .shortstory, .category_block{
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+  .comment_date{
+    margin:10px 0 0 0;
+    float:none;
+    display:block;
+  }
+  .comment_meta{
+    height:auto;
+  }
+  .sline{
+    width: auto;
+  }
+  .uf-item{
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .email-pm a{
+      font-size: 14px;
+    }
+    .comment_avatar{
+      display: none;
+    }
+    .pmlinks a{
+      width: 100%;
+      float: none;
+      border-left: 0;
+    }
+    .addcomment_editor, .comment_content{
+      width: 100%;
+    }
+    .comment_content{
+      padding-left: 0;
+    }
+    .pm_head{
+      font-size: 14px;
+    }
+    .pm, .pm a{
+      font-size: 12px;
+    }
+    .profile_popup_counter b{
+      font-size: 14px;
+    }
+    #totop{
+      display: none !important;
+    }
+  }
+
+
+
+  
